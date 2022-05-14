@@ -1,7 +1,10 @@
 {
   "name": "hydromoek",
   "description": "This the default template for Hydrogen",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "license": "MIT",
   "private": true,
   "scripts": {
