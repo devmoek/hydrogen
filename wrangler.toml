@@ -1,7 +1,0 @@
-name = "hydromoek"
-type = "javascript"
-main = "src/routes/pages/index.server.jsx"
-account_id = "3b7c1851789d02585ae585dff4834def"
-workers_dev = true
-compatibility_date = "2022-01-28"
-compatibility_flags = ["streams_enable_constructors"]
