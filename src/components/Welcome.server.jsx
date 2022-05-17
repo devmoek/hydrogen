@@ -153,20 +153,20 @@ export default function Welcome() {
     <div className="text-gray-900 pt-16 rounded-[40px] my-16 px-4 xl:px-12 bg-gradient-to-b from-white -mx-4 xl:-mx-12">
       <div className="text-center mb-16">
         <h1 className="font-extrabold mb-4 text-5xl md:text-7xl">
-          Hello, Hydrogen
+          Hello 👋
         </h1>
         <p className="text-lg mb-8">
-          Welcome to your custom storefront. Let&rsquo;s get building.
+          Welcome to moek's store. Let&rsquo;s get building.
         </p>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 text-gray-700">
           <DocsButton
-            url="https://shopify.dev/custom-storefronts/hydrogen"
-            label="Browse Hydrogen documentation"
+            url="/collections"
+            label="Browse avaiable templates"
           />
-          <DocsButton url="/graphql" label="Open the GraphiQL explorer" />
+          <DocsButton url="/graphql" label="Join to the community" />
           <DocsButton
             url="https://github.com/Shopify/hydrogen-examples"
-            label="Explore Hydrogen examples"
+            label="Explore components"
           />
         </div>
       </div>

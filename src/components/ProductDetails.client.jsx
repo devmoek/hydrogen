@@ -21,7 +21,7 @@ function AddToCartMarkup() {
   const isOutOfStock = !selectedVariant.availableForSale;
 
   return (
-    <div className="space-y-2 mb-8">
+    <div className="space-y-2 mt-6 mb-9">
       <AddToCartButton
         className={BUTTON_PRIMARY_CLASSES}
         disabled={isOutOfStock}
